@@ -1,6 +1,7 @@
 package user;
 
 //자바 beans
+//JSP에서 데이터를 받아 올 수 있음
 public class User {
 
 	private String userID;
