@@ -40,5 +40,13 @@ public class User {
 		this.userEmail = userEmail;
 	}
 	
+	@Override
+	public String toString() {
+		return "User [userID=" + userID + ", userPassword=" + userPassword + ", userName=" + userName + ", userGender="
+				+ userGender + ", userEmail=" + userEmail + "]";
+	}
+	
+	
+	
 	
 }
