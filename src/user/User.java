@@ -41,6 +41,7 @@ public class User {
 		this.userEmail = userEmail;
 	}
 	
+	//객체를 보기 쉽게
 	@Override
 	public String toString() {
 		return "User [userID=" + userID + ", userPassword=" + userPassword + ", userName=" + userName + ", userGender="
