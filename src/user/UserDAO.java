@@ -13,6 +13,7 @@ public class UserDAO {
 	
 	public UserDAO() {
 		try {
+			//서버타임과 SSL 설정을 해주어야 한다.
 			String dbURL = "jdbc:mysql://localhost:3306/BBS?serverTimezone=Asia/Seoul&useSSL=false";
 			String dbID = "root";
 			String dbPassword = "root";
